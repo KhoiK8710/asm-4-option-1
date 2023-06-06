@@ -1,0 +1,158 @@
+html body {
+    color: brown;
+    font-family: 'Dancing Script', cursive;
+}
+#contact_h1 {
+    font-size: 50px;
+}
+
+label {
+  display: inline-block;
+  width: 200px;
+  font-size: 25px;
+}
+
+textarea {
+    border: 1px solid brown;
+    border-radius: 3px;
+    position: relative;
+    left: -5px;
+}
+
+#click {
+    background-color: brown;
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    width: 137px;
+    font-size: 19px;
+    margin-left: 10px;
+    padding: 15px;
+    border: 1px solid brown;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+select{
+    border: 2px solid brown;
+    color: brown;
+    display: inline-block;
+    width: 1125px;
+    margin: 11px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.checkbox {
+    display: inline-block;
+    position: relative;
+    left: -5px;
+    font-size: 25px;
+    margin-top: -10px;
+}
+.includes {
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.delives {
+    vertical-align: top;
+    padding-top: 10px;
+    font-size: 27px;
+}
+
+.input-text {
+    position: relative;
+    right: 60px;
+    text-align: left;
+    width: 20px;
+}
+
+#name_error {
+    color: red;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-top: auto;
+}
+
+#email_error {
+    color: red;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-top: auto;
+}
+
+#subject_error {
+    color: red;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-top: auto;
+}
+
+#message_error {
+    color: red;
+    margin-left: 5px;
+    font-size: 23px;
+    margin-top: auto;
+}
+
+.date {
+    color: brown;
+}
+
+#date_error {
+    color: red;
+    margin-left: 5px;
+    font-size: 23px;
+    display: block;
+    position: relative;
+    left: 5px;
+}
+
+#label_message {
+    vertical-align: top;
+    position: relative;
+    left: 10px;
+}
+
+#delives_error {
+    color: red;
+    font-size: 23px;
+    margin-top: auto;
+}
+
+#footer_p {
+    display: none;
+}
+
+.form-label {
+    position: relative;
+    left: 5px;
+}
+.form-control {
+    border: 1px solid brown;
+}
+#delives_to {
+    position: relative;
+    left: 0;
+}
+.check {
+    margin-left: 5px;
+}
+.label {
+    position: relative;
+    left: 5px;
+}
+.input {
+    border: 1px solid brown !important;
+    color: brown;
+}
+.form-check-label{
+    width:auto;
+    margin-right: 30px;
+}
+.btn {
+    background-color: brown;
+    border: 1px solid brown;
+}

@@ -1,0 +1,139 @@
+* {
+    font-family: 'Dancing Script', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Dancing Script', cursive;
+    padding: 0;
+    font-size: 25px;
+    color: brown;
+}
+
+.banner h1 {
+    background-color: rgba(240, 255, 66, 0.2);
+    text-align: center;
+    width: 100%;
+    color: #f2f2f2;
+    position: relative;
+    margin-bottom: 15%;
+    color: #FC4445;
+}
+
+.headerUl {
+    position: relative;
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    padding-left: 5px;
+}
+
+.headerUl>li {
+    list-style-type: none;
+}
+
+.headerUl>li a {
+    color: brown;
+    text-decoration: none;
+}
+
+.Products {
+    border-bottom: 2px solid brown;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.Products a {
+    color: brown;
+}
+
+.Products h2 {
+    font-size: 25px;
+}
+
+footer {
+    color: brown;
+}
+.cake {
+    position: relative;
+    top: 60px;
+    margin-bottom: 65px;
+}
+
+#chocolate_frosting_cake {
+    height: 400px;
+}
+
+#about {
+    font-size: 25px;
+}
+
+#about_blog {
+    margin-bottom: 5px;
+}
+
+#message {
+    position: relative;
+    left: 0px;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    padding: 0;
+    border: 1px solid brown;
+    border-radius: 5px;
+    z-index: 999;
+    background-color: #0079FF;
+}
+
+.submenu li {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 8px;
+}
+
+.menu:hover .submenu {
+    display: block;
+    z-index: 100;
+}
+
+.menu .submenu li:hover {
+    display: block;
+    height: 50px;
+    background-color: #116D6E;
+}
+
+.icon {
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: brown;
+    font-size: 25px;
+}
+
+nav {
+    position: relative;
+    padding: 20px;
+    font-size: 20px;
+}
+footer {
+    font-size: 20px;
+    text-align: center;
+}
+.content {
+    font-size: 20px;
+}
+#blog {
+    margin-bottom: 2%;
+    color: black;
+}
+#delives {
+    margin-left: 4px;
+}
+.first {
+    margin-top: 55px;
+}
